@@ -1,0 +1,13 @@
+{
+  "name": "truth-or-dare-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Truth or Dare bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
