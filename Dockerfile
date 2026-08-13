@@ -18,7 +18,4 @@ COPY . .
 
 ENV NODE_ENV=production
 
-# Volume for persistent WhatsApp session
-VOLUME ["/app/.wwebjs_auth"]
-
 CMD ["node", "index.js"]
